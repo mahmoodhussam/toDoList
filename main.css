@@ -1,0 +1,89 @@
+*{
+	margin:0; 
+	padding: 0 ; 
+}
+.container{
+	height: 650px;
+	width: 500px;
+		margin-left: 30%;
+	margin-top: 1.5%;	
+	border:1px solid #000;
+}
+.header{
+	background-image: url(bg.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+}
+.clear{
+	float: right;
+	font-size: 35px;
+	margin:10px 10px 0px 0px;
+	color:#fff;
+}.clear:hover,focus{
+	transform: rotate(44deg);
+	transition: 0.3s;
+}
+.listD{
+ margin : 10px 0px;
+}
+
+.item{
+	font-size: 30px;
+	margin:10px 10px;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	border:1px solid #ccc;
+}
+#left{
+	display: flex;
+	flex-direction: row;
+}
+#left p {
+	margin-top: -2px;
+}
+.check{
+	margin-right: 5px;
+}
+.trach{
+	transition: 0.2s;
+}
+.trach:hover{
+	color:#822F44;
+	transition: 0.2s;
+}
+.inputSection{
+	position: fixed;
+	top: 620px;
+	left: 400px;
+	display: flex;
+}
+.addI{
+	font-size: 35px;
+	margin-right: 5px;
+	color:#3366ff;
+	margin-top: 0px;
+}.addI:hover{
+	color:#5C85FF;
+}
+input{
+	padding: 10px 230px 2px 0px;
+	font-size: 18px;
+
+}
+::placeholder {
+	font-size: 18px;
+}
+
+
+.fa-check-circle{
+	color:green;
+}
+
+
+
+.line{
+	text-decoration: line-through;
+	color:#ccc;
+}

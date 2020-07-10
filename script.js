@@ -8,6 +8,9 @@ const input = document.querySelector('#input');
 const done = "fa-check-circle";
 const fdone = "fa-circle";
 const line_th = "line"
+var today = new Date();
+var date1 = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+date.insertAdjacentHTML('beforeend' , date1);
 document.addEventListener('keyup' , addToDo);
 clear.addEventListener('click' , deleteAll);
 list.addEventListener('click' , function(event){

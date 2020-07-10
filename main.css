@@ -15,6 +15,7 @@
 	background-position: center;
 	height: 250px;
 }
+
 .clear{
 	float: right;
 	font-size: 35px;
@@ -23,6 +24,13 @@
 }.clear:hover,focus{
 	transform: rotate(44deg);
 	transition: 0.3s;
+}
+#date{
+	padding-top: 200px;
+	padding-left: 20px;
+	font-size: 30px;
+	font-family: sans-serif;
+	color:#fff; 
 }
 .listD{
  margin : 10px 0px;
